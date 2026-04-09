@@ -14,7 +14,7 @@ from gradebook_files import *
         # use match-case to see what user entered
         # call appropiate methods
 
-def gradebook_interface():
+def gradebook_main():
     # first, load students from CSV, then turn students into class objects, then put each object into gradebook catalog
     students = load_students()
 
@@ -97,3 +97,6 @@ def gradebook_interface():
                 # stupid proofing
                 print("Please enter a number between 1 and 8.")
                 after_action()
+
+if __name__ == "__main__":
+    gradebook_main()

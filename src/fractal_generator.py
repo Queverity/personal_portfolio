@@ -69,3 +69,6 @@ def fractal_main():
             if continue_program.lower() == "n":
                 print("Goodbye!")
                 break
+
+if __name__ == "__main__":
+    fractal_main()

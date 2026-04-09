@@ -163,7 +163,7 @@ def print_movies(movies):
     for line in movies:
         print(f"Title: {line['Title']} | Director(s): {line['Director']} | Genre(s): {line['Genre']} | Rating: {line['Rating']} | Length: {line['Length (min)']} | Notable Actors: {line['Notable Actors']}")              
             
-def movie_recommender_main():
+def movie_main():
     # get the list of movies for use later in the program
     movies = list_parser()
     # basic explanation of the program
@@ -198,3 +198,6 @@ def movie_recommender_main():
             case _:
                 print("Please enter 1, 2, 3, or 4.")
                 continue
+
+if __name__ == "__main__":
+    movie_main()

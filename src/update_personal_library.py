@@ -247,7 +247,7 @@ def save_library(library):
             writer.writerow(i)
 
 # main menu function
-def library_menu():
+def library_main():
     # get library list
     library = library_parser()
     # description of program
@@ -294,3 +294,6 @@ def library_menu():
                 # stupid proofing
                 print("Please enter 1, 2, 3, 4, 5, 6, 7, or 8.")
                 continue
+
+if __name__ == "__main__":
+    library_main()
