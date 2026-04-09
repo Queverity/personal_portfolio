@@ -153,7 +153,7 @@ def new_movie_data(movies):
 def add_movie(new_movie):
     # open the movies list file, write the new_movie list to it
     try:
-        with open("documents//movies_list.csv",'a',newline='') as movies:
+        with open("documents\\movies_list.csv",'a',newline='') as movies:
             writer = csv.writer(movies)
             writer.writerow(new_movie)
     except:
@@ -163,7 +163,7 @@ def print_movies(movies):
     for line in movies:
         print(f"Title: {line['Title']} | Director(s): {line['Director']} | Genre(s): {line['Genre']} | Rating: {line['Rating']} | Length: {line['Length (min)']} | Notable Actors: {line['Notable Actors']}")              
             
-def main_menu():
+def movie_recommender_main():
     # get the list of movies for use later in the program
     movies = list_parser()
     # basic explanation of the program

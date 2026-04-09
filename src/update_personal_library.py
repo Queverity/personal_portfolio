@@ -247,7 +247,7 @@ def save_library(library):
             writer.writerow(i)
 
 # main menu function
-def main_menu():
+def library_menu():
     # get library list
     library = library_parser()
     # description of program
