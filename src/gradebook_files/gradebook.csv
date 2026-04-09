@@ -1,0 +1,7 @@
+name,id,academic_standing,grade_level,grade1,grade2,grade3,grade4,grade5,grade6,grade7,grade8,average
+Test John,1234,Honor Roll,10th,N/A,90,90,100.0,100.0,100.0,N/A,N/A,95
+Dale Data,4321,Needs Improvement,12th,50,40,60,N/A,N/A,N/A,N/A,N/A,50
+Some Guy,6767,N/A,11th,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Another Guy,8008,N/A,9th,100.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A,100.0
+Name,2345,N/A,9th,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+ovjsa,5555,N/A,10th,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
