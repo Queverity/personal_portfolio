@@ -2,9 +2,11 @@
 This is a personal portfolio that includes the projects I (Clayton Baird) am most proud of! It uses a CustomTk window to allow the user to choose which programs to view and run, making for a very intuitive user experience.
 
 ## How To Use
-1. Download customtkinter
-2. Download turtle2img
-3. Run from main.py in src
+1. Pip install customtkinter
+2. Pip install turtle2img
+3. Pip install subprocess
+4. Pip install sys
+5. Run from main.py in src
 
 ## Features
 - Gradebook Manager
