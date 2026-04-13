@@ -3,7 +3,8 @@ This is a personal portfolio that includes the projects I (Clayton Baird) am mos
 
 ## How To Use
 1. Download customtkinter
-2. Run from main.py in src
+2. Download turtle2img
+3. Run from main.py in src
 
 ## Features
 - Gradebook Manager
