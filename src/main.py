@@ -51,13 +51,13 @@ def init_window():
         project = selected_project[0]
         # python is put at the start so the program is ran in the vscode terminal, and the cwd is set to the src folder so that the programs can be ran without any issues with file paths
         if project == "fractal":
-            subprocess.run(['python', 'src\\fractal_generator.py'], cwd='.')
+            subprocess.run(['python', 'personal_portfolio\\src\\fractal_generator.py'], cwd='.')
         elif project == "movie":
-            subprocess.run(['python', 'src\\movie_reccomender.py'], cwd='.')
+            subprocess.run(['python', 'personal_portfolio\\src\\movie_reccomender.py'], cwd='.')
         elif project == "gradebook":
-            subprocess.run(['python', 'src\\gradebook_interface.py'], cwd='.')
+            subprocess.run(['python', 'personal_portfolio\\src\\gradebook_interface.py'], cwd='.')
         elif project == "library":
-            subprocess.run(['python', 'src\\update_personal_library.py'], cwd='.')
+            subprocess.run(['python', 'personal_portfolio\\src\\update_personal_library.py'], cwd='.')
 
     # buttons for seeing details of program
     fractal_button = ctk.CTkButton(app, text="Fractal Generator",fg_color="lightblue", hover_color="blue", text_color="black", font=ctk.CTkFont(size=14), command=lambda: edit_label("fractal"))

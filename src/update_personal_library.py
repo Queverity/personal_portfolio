@@ -5,7 +5,7 @@ import csv
 # function to turn the library data into something we can use
 def library_parser():
     # opening the file
-    with open("documents//personal_library.csv",mode="r") as library:
+    with open("personal_portfolio//documents//personal_library.csv",mode="r") as library:
         # turn each row in the file into a dictionary
         reader = csv.DictReader(library)
         # list to put each dictionary in
@@ -235,12 +235,12 @@ def search_library(library):
 def save_library(library):
 
     # This clears the library file.
-    with open("documents//personal_library.csv",mode="w") as new_library:
+    with open("personal_portfolio//documents//personal_library.csv",mode="w") as new_library:
         writer = csv.writer(new_library)
         writer.writerow(['title','creator','year','genre'])
 
     # Iterate through the library list, appending each dictionary (book) to the csv file on a new row
-    with open("documents//personal_library.csv",mode="a",newline='') as new_library:
+    with open("personal_portfolio//documents//personal_library.csv",mode="a",newline='') as new_library:
         fieldnames = ['title','creator','year','genre']
         writer = csv.DictWriter(new_library,fieldnames)
         for i in library:

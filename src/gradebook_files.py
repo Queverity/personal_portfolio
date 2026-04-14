@@ -19,7 +19,7 @@ from gradebook_helper import *
 
 def load_students():
     # use with open to make sure the file closes on its own
-    with open("documents\\gradebook.csv", mode="r") as students:
+    with open("personal_portfolio\\documents\\gradebook.csv", mode="r") as students:
         fieldnames = ['name','id','academic_standing','grade_level','grade1','grade2','grade3','grade4','grade5','grade6','grade7','grade8','average']
         reader = csv.DictReader(students,fieldnames)
         # done so fieldnames is not read
